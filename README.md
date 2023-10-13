@@ -39,3 +39,31 @@ Practically, I will measure the performance of the success of the Instagram Tv p
 5.	Model building and Graphical visualization evaluation
 6.	Communication of model results against set KPI’s
 
+
+
+DSEAFRICA WK 2 PROJECT:
+Question: Let’s say we want to build a model to predict booking prices on Airbnb. Between linear regression and random forest regression, which model would perform better and why?
+The selection between Linear regression and Random Forest regression for predicting booking prices on Airbnb depends on various factors such as:
+•	Nature of data
+•	Relationship the features and the target variable
+•	Amount and quality of data available
+•	complexity of the relationship between the input features and the booking prices on Airbnb,
+•	The desired level of interpretability versus predictive performance
+Thus, in comparing both models,
+
+Random forest regressions: discretize continuous variables based on decision trees and can split categorical and continuous variables.
+Random forest regression is based on bagging, an ensemble learning technique that combines multiple decision trees to make predictions and are capable of capturing complex interactions and non-linear patterns in the data, making them more flexible than linear regression. It can handle large number of feature interactions and variable importance.
+However, the interpretability of random forest models is generally lower than that of linear regression models. It can be challenging to understand the individual impact of each feature on the predictions.
+
+Linear regression: is the standard regression technique that remote relationships are modeled using a linear predictor function, y = Ax + B.
+Linear regression assumes a linear relationship between the features and the target variable as they represent the direction and magnitude of the impact of each feature on the target variable.
+However, linear regression may not capture complex non-linear relationships in the data, leading to reduced predictive performance.
+
+To determine the best model in the context of predicting booking prices on Airbnb, considering the complexity and non-linear nature of the data, random forest regression model is likely to perform better than a simple linear regression model. 
+Reason: Random forests capture the interactions between various features such as location, listing amenities, and availability, which may have non-linear effects on booking prices. 
+•	They can also handle categorical variables and missing data more effectively. 
+•	However, it captures complex and non-linear relationship input features and the target variable.
+•	Robust to outliers and not impacted by noise due to its ensemble nature (combining multiple decision trees).
+•	Better performance with categorical data.
+•	Yields higher accuracy
+
